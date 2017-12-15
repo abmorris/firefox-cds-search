@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>CDS</ShortName>
+<LongName>CERN Document Server</LongName>
+<Description>Search on the CERN Document Server</Description>
+<Image height="16" width="16" type="image/x-icon">https://cds.cern.ch/favicon.ico</Image>
+<InputEncoding>UTF-8</InputEncoding>
+<Contact>cds-logs@cern.ch</Contact>
+<Url type="text/html" method = "GET" template="https://cds.cern.ch/search?p={searchTerms}" />
+<SearchForm>http://cds.cern.ch</SearchForm>
+</OpenSearchDescription>
